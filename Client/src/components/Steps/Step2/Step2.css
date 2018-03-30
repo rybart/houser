@@ -1,0 +1,202 @@
+.StepPage{
+    width: 50%;
+    min-height: 900px;
+    height: auto;
+    box-sizing: border-box;
+    margin-top: 75px;
+    padding: 20px;
+    min-width: 759px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(180deg,#e2f3ea,#fff);
+}
+.Step2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+.StepHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+p.headerTitle {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+}
+
+button.cancelButton {
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #fec2c2;
+    border: none;
+    height: 40px;
+}
+
+.StepIdentification {
+    width: 70%;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.dotContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.stepContainer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+p.propAddress {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+input.propertyAddress {
+    height: 22px;
+    border-radius: 2px;
+    font-size: 15px;
+    width: 70%;
+    border: 1px solid #519872;
+    outline: none;
+    font-weight: 400;
+}
+
+input.propertyZip {
+    font-weight: 400;
+    border: 1px solid #519872;
+    width: 35%;
+    height: 22px;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+p.stepNumber {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.Step2ButtonContainer {
+    margin-top: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+button.previousStep2 {
+    color: #fff;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: #3b5249;
+    cursor: pointer;
+    font-size: 21px;
+}
+button.nextStepStep2 {
+    color: #fff;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: #3b5249;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.Step2AddressContainer {
+    width: 70%;
+}
+
+.Step2MiddleContainer {
+    width: 70%;
+    margin-top: 20px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.Step2CityContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+p.propCity {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+input.propertyCity {
+    height: 22px;
+    border-radius: 2px;
+    font-size: 15px;
+    width: 70%;
+    border: 1px solid #519872;
+    outline: none;
+    font-weight: 400;
+}
+
+.Step2StateContainer {
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 50%;
+}
+
+p.propState {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+input.propertyState {
+    height: 22px;
+    border-radius: 2px;
+    font-size: 15px;
+    width: 70%;
+    border: 1px solid #519872;
+    outline: none;
+    font-weight: 400;
+}
+
+.Step2ZipContainer {
+    width: 70%;
+    margin-top: 20px;
+}
+
+p.propZip {
+    margin:0;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: 700;
+}
+
+.zipInputContainer {
+    width: 70%;
+}

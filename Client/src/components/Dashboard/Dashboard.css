@@ -1,0 +1,214 @@
+.Dashboard{
+    width: 100vw;
+}
+.page {
+    width: 100%;
+    min-height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.dashboardCont {
+    width: 50%;
+    min-height: 900px;
+    height: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 75px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#e2f3ea),to(#fff));
+    background-image: -webkit-linear-gradient(top,#e2f3ea,#fff);
+    background-image: -o-linear-gradient(top,#e2f3ea,#fff);
+    background-image: linear-gradient(180deg,#e2f3ea,#fff);
+    padding: 20px;
+    min-width: 759px;
+}
+
+button.newProperty {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    font-weight: 700;
+    background-color: #8aea92;
+}
+
+.filterContent {
+    width: 100%;
+    height: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+
+.homeListings > p {
+    font-weight: 700;
+}
+
+input.desiredRent {
+    width: 85px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    border: 1px solid #519872;
+    outline: none;
+}
+
+button.filter {
+    border: none;
+    padding: 7px;
+    width: 70px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: #8aea92;
+    font-weight: 400;
+}
+
+button.reset {
+    color: #fff;
+    margin-left: 10px;
+    border: none;
+    padding: 7px;
+    width: 70px;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #3b5249;
+}
+
+.homeListings {
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.dashboardPropCont {
+    width: 100%;
+    height: 74%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.grey {
+    border: none;
+    height: 150px;
+    width: 98%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 1 1 0%;
+    background-color: #dedede;
+    flex: 1 1 0%;
+}
+
+.imgContainer {
+    height: 100%;
+    width: 400px;
+}
+.child {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: auto;
+    height: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+.propertyDescription {
+    width: calc(100% - 150px);
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.parent {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+}
+
+p.propertyName {
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+
+p.propertydescription {
+    font-weight: 400;
+}
+
+.propDetail {
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 57%;
+    padding: 10px;
+    padding-left: 0;
+    position: relative;
+}
+.anotherDiv {
+    width: 97%;
+    padding-right: 10px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: auto;
+    border-left: 1px solid #000;
+    padding-left: 10px;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.anotherDiv > p {
+    font-weight: 700;
+    margin: 2px;
+}
+
+img.deleteButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+img.propertyImg {
+    width: 100%;
+    height: 100%;
+}
